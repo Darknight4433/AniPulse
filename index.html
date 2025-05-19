@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AniPulse - Anime Search</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <header>
+    <h1><i class="fas fa-tv"></i> AniPulse</h1>
+  </header>
+
+  <main>
+    <div class="search-container">
+      <input type="text" id="search" placeholder="Search anime...">
+      <button id="searchBtn"><i class="fas fa-search"></i></button>
+    </div>
+
+    <div id="animeList" class="anime-grid"></div>
+    
+    <div id="animeDetails" class="hidden">
+      <button id="closeDetails"><i class="fas fa-times"></i></button>
+      <div id="detailContent"></div>
+    </div>
+  </main>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

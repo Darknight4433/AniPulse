@@ -1,0 +1,57 @@
+/* Search Bar */
+.search-container {
+  display: flex;
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+#search {
+  flex: 1;
+  padding: 12px;
+  font-size: 16px;
+  border: 2px solid #6a5acd;
+  border-radius: 4px 0 0 4px;
+}
+
+#searchBtn {
+  background: #6a5acd;
+  color: white;
+  border: none;
+  padding: 0 20px;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+}
+
+/* Anime Details Modal */
+#animeDetails {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.8);
+  z-index: 100;
+  padding: 40px;
+  overflow-y: auto;
+}
+
+#detailContent {
+  background: white;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 30px;
+  border-radius: 8px;
+}
+
+#closeDetails {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: transparent;
+  color: white;
+  font-size: 24px;
+}
+
+.hidden {
+  display: none !important;
+}
