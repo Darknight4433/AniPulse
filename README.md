@@ -5,8 +5,6 @@
 
 A modern web application for discovering anime shows across multiple genres, featuring real-time search and detailed information.
 
-![AniPulse Screenshot](https://i.imgur.com/SCREENSHOT-ID.png)
-
 ## ✨ Features
 
 - **Multi-genre browsing** (Action, Romance, Shounen, etc.)
