@@ -1,4 +1,4 @@
-# <img src="https://i.imgur.com/YOUR-LOGO.png" width="40"> AniPulse - Anime Discovery Platform
+ AniPulse - Anime Discovery Platform
 
 [![GitHub Pages](https://img.shields.io/badge/Live%20Demo-Available-brightgreen)](https://darknight4433.github.io/AniPulse/)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
