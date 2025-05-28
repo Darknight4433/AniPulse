@@ -4,7 +4,7 @@
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 A modern web application for discovering anime shows across multiple genres, featuring real-time search and detailed information.
-Anipulse is still under development and can give some information wrong , pls cooporate🙂
+Anipulse is still under development and can give some information wrong , pls cooporate😊
 
 ## ✨ Features
 
