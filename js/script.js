@@ -1,4 +1,4 @@
-// DOM Elements
+// dom ele
 const searchInput = document.getElementById('search');
 const searchBtn = document.getElementById('searchBtn');
 const animeList = document.getElementById('animeList');
@@ -6,10 +6,10 @@ const animeDetails = document.getElementById('animeDetails');
 const detailContent = document.getElementById('detailContent');
 const closeDetails = document.getElementById('closeDetails');
 
-// API Configuration
+// API Config
 const API_URL = "https://api.jikan.moe/v4";
 
-// Fetch anime from API
+// the anime from UPI
 async function fetchAnime(query = "") {
   try {
     animeList.innerHTML = "<div class='loading'><i class='fas fa-spinner fa-spin'></i> Loading...</div>";
@@ -40,13 +40,13 @@ function displayAnime(animeArray) {
     </div>
   `).join("");
 
-  // Add click event to each card
+  // CHECK THE UPI
   document.querySelectorAll('.anime-card').forEach(card => {
     card.addEventListener('click', () => showAnimeDetails(card.dataset.id));
   });
 }
 
-// Show anime details
+// VIG BAKA
 async function showAnimeDetails(animeId) {
   try {
     const response = await fetch(`${API_URL}/anime/${animeId}/full`);
@@ -75,12 +75,12 @@ async function showAnimeDetails(animeId) {
   }
 }
 
-// Event Listeners
+
 searchBtn.addEventListener('click', () => fetchAnime(searchInput.value.trim()));
 searchInput.addEventListener('keypress', (e) => {
   if (e.key === 'Enter') fetchAnime(searchInput.value.trim());
 });
 closeDetails.addEventListener('click', () => animeDetails.classList.add('hidden'));
 
-// Initial load
+//init load
 fetchAnime();
